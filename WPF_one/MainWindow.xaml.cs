@@ -20,9 +20,20 @@ namespace WPF_one
     /// </summary>
     public partial class MainWindow : Window
     {
+
+
+        long number1 = 0;
+
+
         public MainWindow()
         {
             InitializeComponent();
         }
+
+        private void Button_one_Click(object sender, RoutedEventArgs e)
+        {
+            number1 = (number1 * 10) + 1;
+            
+                    }
     }
 }
